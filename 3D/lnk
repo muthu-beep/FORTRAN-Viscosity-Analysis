@@ -1,0 +1,10 @@
+pgfortran -c main.f
+pgfortran -c -fast vel3d.f
+pgfortran -c -fast mmesh.f
+pgfortran -c -fast gim.f
+pgfortran -c -fast qminsiad.f
+pgfortran -c mnames.f
+pgfortran -c drnames.f
+pgfortran -c -fast recrestr.f
+
+pgfortran main.o vel3d.o mmesh.o gim.o qminsiad.o mnames.o drnames.o recrestr.o -o Rad06Ca08

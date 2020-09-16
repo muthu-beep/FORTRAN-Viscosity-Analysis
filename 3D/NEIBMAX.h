@@ -1,0 +1,1 @@
+      PARAMETER(NEIBMAX=11)

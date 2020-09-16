@@ -1,0 +1,1 @@
+      PARAMETER(NTMAX=10000)
